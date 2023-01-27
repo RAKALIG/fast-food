@@ -60,8 +60,8 @@ img {
 }
 
 .logo {
-    width: 52px;
-    height: 42px;
+    width: 100px;
+    height: 100px;
 }
 
 .logo__pic {}
@@ -81,23 +81,53 @@ img {
 }
 
 .nav__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.14;
+}
+
+.btn {
+    color: white;
+    background-color: #F6762C;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 49px;
+    width: 165px;
+    padding: 15px 36px;
+}
+
+.hero__content {
+    max-width: 49%;
+}
+
+.hero__info {
     color: white;
 }
 
-.btn {}
-
-.hero__content {}
-
-.hero__info {}
-
 .hero__headline {
-    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-top: 150px;
 }
 
 .title {
-    color: white;
+    font-weight: 500;
+    font-size: 57.33px;
+    line-height: 1.18;
 }
 
 .hero__desc {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 41px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
 }
